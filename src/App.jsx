@@ -1,6 +1,8 @@
 import Card from './components/Card';
 import './todo.css'
 import Data from './data.json'
+import Person from './components/Person';
+
 
 function App() {
   // let items = [];
@@ -24,6 +26,10 @@ function App() {
       // add key/index for avoid browser warning
       Data.map((item,index) => <Card key={index} titleText={item.title} descText={item.desc}></Card>)     
       }
+
+      <Person></Person>
+    
+      
     </div>
   )
 }
