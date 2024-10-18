@@ -13,8 +13,8 @@ export default function Card(props) {
 
     const name = ['dog', 'cat', 'mouse'];
     const [dog, cat, mouse] = name;
-    console.log(name);
-    console.log(dog, cat,mouse);
+    // console.log(name);
+    // console.log(dog, cat,mouse);
     
   return (
     <div>
